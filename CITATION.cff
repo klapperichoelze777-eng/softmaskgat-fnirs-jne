@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite the paper when using the method and cite the archived software version when using this implementation."
+title: "SoftMaskGAT for fNIRS"
+type: software
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/klapperichoelze777-eng/softmaskgat-fnirs-jne"
+authors:
+  - family-names: Chen
+    given-names: Keren
+    orcid: "https://orcid.org/0009-0006-6037-9800"
+preferred-citation:
+  type: article
+  title: "Quality-aware mask-propagation graph attention for fNIRS-based bipolar disorder classification without channel interpolation"
+  journal: "Journal of Neural Engineering"
+  year: 2026
+  doi: "10.1088/1741-2552/aebe6b"
+  authors:
+    - family-names: Chen
+      given-names: Keren
+      orcid: "https://orcid.org/0009-0006-6037-9800"
+    - family-names: Wu
+      given-names: Xiaoshan
+      orcid: "https://orcid.org/0009-0002-5987-2391"
+    - family-names: He
+      given-names: Ling
+    - family-names: Meng
+      given-names: Yajing

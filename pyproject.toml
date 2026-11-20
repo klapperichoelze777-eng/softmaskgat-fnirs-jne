@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "softmaskgat-fnirs-jne"
+version = "1.0.0"
+description = "Quality-aware graph attention for fNIRS with variable channel availability"
+authors = [{name = "Keren Chen"}]
+maintainers = [{name = "Jack Chen"}]
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = ["numpy>=1.26", "scipy>=1.11", "scikit-learn>=1.3", "torch>=2.4"]
+
+[project.urls]
+Repository = "https://github.com/klapperichoelze777-eng/softmaskgat-fnirs-jne"
+Article = "https://doi.org/10.1088/1741-2552/aebe6b"
+
+[project.scripts]
+softmaskgat = "softmaskgat.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["softmaskgat"]
+
+[tool.setuptools.package-data]
+softmaskgat = ["aggregates/*.csv"]
