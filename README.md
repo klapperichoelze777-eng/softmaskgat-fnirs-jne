@@ -60,6 +60,6 @@ The primary and seed-42 paired analyses use ordinary participant bootstrap resam
 
 Chen K, Wu X, He L and Meng Y. *Quality-aware mask-propagation graph attention for fNIRS-based bipolar disorder classification without channel interpolation*. Journal of Neural Engineering (2026). [Article DOI](https://doi.org/10.1088/1741-2552/aebe6b)
 
-Please cite the article when using the method. Use the archived release identifier when citing a particular software version. Software citation metadata are provided in `CITATION.cff`.
+Please cite the article when using the method. Cite the archived software when referring to this implementation. [SoftMaskGAT v1.0.0 on Zenodo](https://doi.org/10.5281/zenodo.24394153)
 
 Maintained by [Jack Chen](https://github.com/klapperichoelze777-eng). Source code is distributed under the MIT license.

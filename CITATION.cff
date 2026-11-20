@@ -3,6 +3,8 @@ message: "Please cite the paper when using the method and cite the archived soft
 title: "SoftMaskGAT for fNIRS"
 type: software
 version: "1.0.0"
+date-released: "2026-11-20"
+doi: "10.5281/zenodo.24394153"
 license: MIT
 repository-code: "https://github.com/klapperichoelze777-eng/softmaskgat-fnirs-jne"
 authors:
